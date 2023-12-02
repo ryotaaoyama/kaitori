@@ -1,0 +1,1069 @@
+li{
+    list-style-type: none;
+}
+.body-hide{
+    overflow:hidden;
+}
+.slider2 {
+  display: none;
+}
+.vehicles-content {
+            height: 50vh;
+            overflow-y: scroll;
+            margin: 0;
+            padding: 30px 20px 20px;
+        }
+        .content-tab-year ul{
+            height:46vh;
+            overflow-y: scroll;
+            margin: 0;
+            padding: 30px 20px 20px;
+        }
+        .content-tab-version ul{
+            height: 46vh;
+            overflow-y: scroll;
+            margin: 0;
+            padding: 30px 20px 20px 40px;
+        }
+        .content-tab-version{
+            height: 55vh;
+        }
+        .content-tab-year{
+            height: 55vh;
+        }
+        .warrap {
+            width: 1200px;
+            height: auto;
+            margin: 0 auto;
+            padding-top: 30px;
+            text-align: center;
+        }
+        form#dataForm {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .form-field {
+            width: 100%;
+            padding: 20px 0;
+            text-align: left;
+        }
+        .form-field label {
+            font-size: 18px;
+            color: #12897e;
+        }
+        .form-field select {
+            width: 100%;
+            height: 40px;
+            background-color: #12897e;
+            margin-top: 12px;
+        }
+        .form-field input {
+            width: 100%;
+            height: 40px;
+            background-color: #12897e;
+            margin-top: 12px;
+            border: none;
+        }
+
+
+        .input-field {
+          margin-bottom: 10px;
+        }
+        /* CSS styles for the popup */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            z-index: 3;
+        }
+        .popup-content {
+            position: absolute;
+            top: 64%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border-radius: 30px;
+            
+        }
+        .tab {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .tab li {
+            float: left;
+            cursor: pointer;
+            padding: 10px;
+            color: white;
+            list-style-type: none;
+        }
+
+        .tab li:hover {
+            background-color: #444;
+        }
+
+        .tab-content {
+            display: none;
+            background-color: white;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+        }
+
+        .tab-content.active {
+            display: block;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+        }
+        .content-detail {
+            height: 50vh;
+            overflow-y: scroll;
+        }
+        .nihon-car-item h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+        .world-car-item h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 20px 0;
+        }
+        ul.modal-block-list {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: flex;
+            -webkit-box-lines: multiple;
+            -moz-box-lines: multiple;
+            -webkit-flex-wrap: wrap;
+            -moz-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            /* -webkit-box-pack: justify; */
+            -moz-box-pack: justify;
+            -webkit-flex-pack: justify;
+            -moz-flex-pack: justify;
+            -ms-flex-pack: justify;
+            -webkit-justify-content: space-between;
+            -moz-justify-content: space-between;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+        }
+        ul.modal-block-list li a:hover {
+            opacity: 0.8;
+            background-color: #ff9e67;
+        }
+        .link-car-item h4 {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 0 0 5px;
+            margin: 28px 0 20px;
+            border-bottom: 1px solid #DDD;
+        }
+        
+        ul.modal-text-list li a {
+            background: url(../img/logomeka/icon_negobtn.png) no-repeat;
+            background-position: 5px 13px;
+            color: #313233;
+            display: inline-block;
+            width: 90%;
+            position: relative;
+            padding: 11px 0 8px 23px;
+            font-weight: 600;
+        }
+        .vehicles-content ul li a {
+            background: url(../img/logomeka/icon_negobtn.png) no-repeat;
+            background-position: 5px 13px;
+            color: #313233;
+            display: inline-block;
+            width: 90%;
+            position: relative;
+            padding: 8px 0 8px 23px;
+        }
+        .vehicles-content ul li a:hover {
+            background-color: #ff9e67;
+        }
+        .content-tab-year ul li{
+            cursor: pointer;
+        }
+        .content-tab-year ul li a{
+            background: url(../img/logomeka/icon_negobtn.png) no-repeat;
+            background-position: 5px 13px;
+            color: #313233;
+            display: inline-block;
+            width: 90%;
+            position: relative;
+            padding: 8px 0 8px 23px;
+        }
+        .content-tab-year ul li a:hover {
+            background-color: #ff9e67;
+        }
+        .content-tab-version ul li a{
+            background: url(../img/logomeka/icon_negobtn.png) no-repeat;
+            background-position: 5px 13px;
+            color: #313233;
+            display: inline-block;
+            width: 90%;
+            position: relative;
+            padding: 8px 0 8px 23px;
+        }
+        .content-tab-version ul li a:hover {
+            background-color: #ff9e67;
+        }
+        ul.modal-text-list {
+            padding: 0;
+        }
+        ul.modal-text-list li a:hover {
+            background: url(../img/logomeka/icon_negobtn.png) no-repeat, #ff9e67;
+            background-position: 5px 13px;
+            cursor: pointer;
+        }
+        button.popup-close {
+            background: url(../img/logomeka/modal_close.png);
+            background-repeat:no-repeat;
+            display: block;
+            width: 26px;
+            height: 26px;
+            font-weight: normal;
+            line-height: 1;
+            color: #FFF;
+            text-shadow: none;
+            filter: none;
+            opacity: 1;
+            position: absolute;
+            top: -33px;
+            right: 1px;
+            box-shadow: none;
+            border: none;
+        }
+        .header-text {
+            background-color: #fa6b19;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+        }
+        .header-text h3 {
+            margin: 0;
+            color: #fff;
+            padding: 20px 20px;
+        }
+        .content-tab h3 {
+        background-color: #fa6b19;
+        margin: 0;
+        color: #fff;
+        padding: 20px;
+        border-top-left-radius: 26px;
+        border-top-right-radius: 26px;
+    }
+    span.required-label {
+        font-size: 12px;
+        background-color: #ea5413;
+        color: #fff;
+        padding: 0px 10px 2px;
+        margin-left: 8px;
+        border-radius: 3px;
+    }
+    .green {
+        display: none;
+    }
+    ul.carmodelAnchorList {
+        padding: 10px;
+    }
+    ul.carmodelAnchorList li span a:hover{
+        color: #F30;
+        border-bottom: 3px solid #F30;
+    }
+    .footer-popup{
+        padding: 20px;
+        border-top: 1px solid #DDD;
+        text-align: left;
+    }
+    .menu-text {
+        padding: 0px;
+        border-bottom: 1px solid #DDD;
+    }
+
+    .sp-b dl{
+        border: none;
+    }
+    .vehicles-content h4 {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0 0 10px;
+        margin: 28px 0 20px;
+        border-bottom: 1px solid #DDD;
+    }
+    /*div#yearPopup {
+        height: 55vh;
+    }
+    div#versionPopup {
+        height: 55vh;
+    }*/
+    .content-tab-version h3 {
+        background-color: #fa6b19;
+        margin: 0;
+        color: #fff;
+        padding: 20px;
+    }
+    .content-tab-version ul li{
+        list-style-type: none;
+        font-size: 14px;
+        margin: 0px 0px 4px;
+        width: 100%!important;
+        display: block;
+        cursor: pointer;
+    }
+
+@media(max-width: 992px){
+    .tab-content.active {
+        border-radius: 30px;
+    }
+    .footer-popup {
+    border-top:none;
+    }
+    .content-tab-version ul{
+        height: 46vh;
+        overflow-y: scroll;
+        margin: 0;
+        padding: 30px 12px 20px 12px;
+    }
+    .vehicles-content {
+        height: 50vh;
+        overflow-y: scroll;
+        margin: 0;
+        padding: 30px 12px 20px 12px;
+    }
+    /*.bound-container-form{
+       margin: -40px 0 0px 0; 
+    }*/
+    .popup-content{
+        width: 94%;
+        top:53%;
+        z-index:99999;
+        /* height:600px; */
+        margin: 50px 0%;
+    }
+    .header-text h3{
+        font-size: 16px;
+    }
+    .content-tab-version h3,.content-tab h3{
+        font-size: 16px;
+    }
+    ul.carmodelAnchorList li {
+        font-size: 14px;
+        display: inline-block;
+        vertical-align: top;
+        width: calc(93% / 6);
+        text-align: center;
+    }
+    ul.carmodelAnchorList li span {
+        width: 105%;
+        height: 100%;
+        display: inline-block;
+        color: #C0C0C0;
+        font-weight: bold;
+        position: relative;
+        box-sizing: border-box;
+        padding: 12px 0;
+        background: #EEE;
+        border-top: 1px solid #DDD;
+        border-right: 1px solid #DDD;
+    }
+    ul.carmodelAnchorList li span a {
+        width: 100%;
+        display: inline-block;
+        color: #333;
+        box-sizing: border-box;
+        text-decoration: none !important;
+    }
+    ul.modal-block-list {
+        font-size: 0;
+        margin: 0 0 24px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul.modal-block-list li {
+        vertical-align: top;
+        font-size: 11px;
+        line-height: 14px;
+        flex: 0 0 25%;
+        padding: 5px;
+        margin: 0 0 10px 0;
+        border-bottom: 1px dotted #EEE;
+        text-align: center;
+        list-style-type: none;
+    }
+    ul.modal-block-list li a{
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: underline;
+        color: #313233;
+
+    }
+    ul.modal-block-list li a img {
+        height: 30px;
+    }
+    .logo-car-item h3 {
+        padding-left: 12px;
+    }
+    .link-item-one {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-two {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-three {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-four {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-five {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-six {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-seven {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-eight {
+        padding: 10px 15px 10px 15px;
+    }
+    .link-item-nine {
+        padding: 10px 15px 10px 15px;
+    }
+    ul.modal-text-list li{
+        font-size: 16px;
+        padding: 2px 0 2px 0;
+        margin: 0 0 10px 0;
+        border-bottom: 1px dotted #EEE;
+        list-style-type: none;
+    }
+    ul.modal-text-list li a {
+        font-size: 14px;
+        padding: 8px 0 8px 23px!important;
+    }
+    .link-car-item h4{
+        margin-top: 0px!important;
+    }
+    .content-tab ul li {
+        font-size: 14px;
+        padding: 0px;
+/*         margin: 0 0 10px 0; */
+        border-bottom: 1px dotted #EEE;
+        cursor: pointer;
+    }
+    .vehicles-content ul {
+        margin: 0;
+        padding: 0;
+    }
+    .vehicles-content h4{
+        margin-top: 0px!important;
+    }
+    .vehicles-content ul li a{
+        font-size: 14px;
+    }
+    .content-tab-year ul li a{
+        font-size: 14px;
+    }
+    button.popup-close{
+        width: 26px!important;
+        height: 26px!important;
+        right: 9px!important;
+    }
+    /*dl.field-none {
+        display: none;
+    }*/
+    ul.carmodelAnchorList li span a:hover{
+        border: none;
+    }
+    .tab .content{
+        height:76vh;
+    }
+    .popup-top-content{
+        width: 92%;
+        padding: 60px 6px;
+    }
+    .popup-top-content h4{
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+    .content-btn-choose li{
+        width: 30%;
+        padding: 6px 10px;
+    }
+    .content-btn-choose li span{
+        font-size: 14px;
+    }
+    ul.car-color-list{
+        padding: 12px;
+    }
+    ul.car-kilomet-item-list {
+        overflow: scroll;
+        height: 55vh;
+    }
+    div#status-content {
+        padding: 30px 10px;
+    }
+    .status-check {
+        padding: 0px;
+        text-align: center;
+    }
+    .status-check ul {
+        display: flex;
+        padding: 0;
+    }
+    /*li.title-check {
+        width: 30%;
+    }
+    li.check-btn-cus {
+        margin: 30px 0;
+        width: 100%;
+    }*/
+
+    ul.car-kilomet-item-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .auto-check ul {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+    .history-check ul {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+    .car-status-content{
+        height: 57vh;
+        overflow: scroll;
+    }
+    .history-check {
+        padding: 10px 0;
+    }
+    .auto-check {
+        padding: 10px 0;
+    }
+    ul.car-kilomet-item-list li{
+        padding: 7px 0;
+    }
+    .content-check-detail ul {
+        padding: 0;
+    }
+    .title-check {
+        margin-bottom: 12px;
+        text-align: left;
+    }
+    label.custom-checkbox {
+        margin: 0 0px 10px;
+        width: 100%!important;
+    }
+    .custom-checkbox .checkmark{
+        width: 100%!important;
+    }
+    .content-tab-year{
+        height: 72vh;
+    }
+    .content-tab-year ul{
+        height: 62vh;
+    }
+    .content-tab-version {
+        height: 72vh;
+    }
+    .content-tab-version ul{
+        height: 62vh;
+    }
+    ul.car-color-list {
+        margin-bottom: 0px;
+        padding-block: 15px;
+    }
+    ul.car-color-list li{
+        padding: 13px 0;
+    }
+    span#numberkl-item{
+        width: 100%!important;
+    }
+    .content-check-detail {
+        padding: 10px;
+    }
+    dt.sp-tt-cu {
+        flex: 0 0 3rem;
+    }
+    span.title-ft {
+        font-size: 18px;
+    }
+    .sp-ip-cu input{
+        width: 100%;
+    }
+
+}
+@media(min-width: 992px){
+    .popup-content{
+        width: 1020px;
+    }
+    .header-text h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .content-tab-version h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .content-tab-year h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    ul.carmodelAnchorList li {
+        font-size: 16px!important;
+        display: inline-block!important;
+        vertical-align: top!important;
+        width: calc(96% / 11)!important;
+        text-align: center!important;
+    }
+    ul.carmodelAnchorList li span {
+        width: 100%;
+        display: inline-block;
+        color: #C0C0C0;
+        font-weight: bold;
+        position: relative;
+        box-sizing: border-box;
+    }
+    ul.carmodelAnchorList li span a {
+        width: 100%;
+        display: inline-block;
+        color: #333;
+        border-bottom: 3px solid #FFF;
+        text-decoration: none !important;
+    }
+    ul.carmodelAnchorList li span:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        display: inline-block;
+        width: 1px;
+        height: 17px;
+        background-color: #CCC;
+    }
+    .nihon-car-item {
+        width: 49%;
+        padding: 0 20px;
+        float: left;
+        border-right: 1px solid #DDD;
+    }
+    .world-car-item {
+        width: 49%;
+        padding: 0 16px;
+        float: left;
+    }
+    .logo-car-item {
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    ul.modal-block-list li {
+        vertical-align: top;
+        flex: 1 1 33%;
+        text-align: center;
+        margin: 0px 0px 10px;
+        list-style-type: none;
+    }
+    ul.modal-block-list li a {
+        width: 100%;
+        display: inline-block;
+        padding: 7px 8px;
+        vertical-align: top;
+        font-size: 14px;
+        color: #313233;
+        line-height: 18px;
+        text-align: center;
+    }
+    .link-item-one {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-two {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-three {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-four {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-five {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-six {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-seven {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-eight {
+        padding: 10px 40px 10px 40px;
+    }
+    .link-item-nine {
+        padding: 10px 40px 10px 40px;
+    }
+    ul.modal-text-list li {
+        list-style-type: none;
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        font-size: 14px;
+        margin: 0px 0px 4px;
+    }
+    .content-tab ul li {
+        list-style-type: none;
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        font-size: 14px;
+        margin: 0px 0px 4px;
+        cursor: pointer;
+    }
+    .popup-top-content{
+        width: 800px;
+        padding: 80px 70px;
+    }
+    .popup-top-content h4{
+        font-size: 26px;
+        margin-bottom: 35px;    
+    }
+    .content-btn-choose {
+        padding-bottom: 30px;
+    }
+    .content-btn-choose-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-btn-choose li{
+        width: 200px;
+        padding: 20px 24px;
+    }
+    .content-btn-choose li span{
+        font-size: 13.3333px;
+    }
+    div#status-content {
+        padding: 40px 60px;
+    }
+    .status-check {
+        padding: 30px;
+    }
+
+    ul.car-kilomet-item-list{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .content-check-detail li .title-check {
+        width: 12%;
+    }
+    .content-check-detail li {
+        width: 100%;
+        display: inline-flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+    .box-content {
+        width: 88%;
+    }
+    p#message-one{
+        margin-left: 113px;
+    }
+    p#message-two{
+        margin-left: 113px;
+    }
+    ul.car-kilomet-item-list li{
+        padding: 12px 4px;
+    }
+
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+}
+/*.input-group input {
+    line-height: 35px;
+    padding: 0 10px 0 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: black;
+    appearance: none;
+    border: 1px solid #afafaf;
+    border-radius: 3px;
+    background: #fff;
+    background-image: url(../img/home/select_arrow.svg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 20px 10px;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+}*/
+.valid-label {
+    display: none;
+}
+
+/* Popup Numberone */
+
+/* CSS để tùy chỉnh popup và lớp mỏng */
+
+.popup-top{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2; 
+}
+
+.popup-top-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    text-align: center;
+}
+.popup-top-content h4 {
+    font-weight: 800;
+    color: #000;
+    border-bottom: 1px solid #ff5c00;
+    padding-bottom: 6px;
+}
+
+.content-btn-choose li:hover {
+    background-color: #ff5c00;
+    color: #fff;
+    border: #fff;
+}
+.content-btn-choose li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    background-color: #CCC;
+    border-radius: 3px;
+    /*border: 1px solid #000;*/
+    color: #414141;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-btn-choose li span {
+    font-weight: 600;
+}
+
+/* end */
+
+
+ul.car-color-list li span::before {
+    display: block;
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 14px;
+    margin: 0 auto;
+}
+ul.car-color-list {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    padding-block: 24px;
+    width: 100%;
+}
+ul.car-color-list li {
+    text-align: center;
+    font-size: 13px;
+    padding: 16px 0;
+    cursor: pointer;
+}
+ul.car-color-list li span:hover {
+    text-decoration: underline;
+}
+ul.car-color-list li span {
+    line-height: 26px;
+}
+.titl-text-plus p {
+    margin: 0;
+    font-size: 14px;
+    color: #898989;
+}
+.titl-text-plus {
+    padding: 10px 20px;
+    border-bottom: 1px solid #dcdcdc;
+}
+ul.car-color-list li span#color_white::before {
+    background-color: #fff;
+}
+ul.car-color-list li span#color_back::before {
+    background-color: #000;
+}
+ul.car-color-list li span#color_silver::before {
+    background: linear-gradient(135deg, #FFF 0, #D1D1D1 100%);
+}
+ul.car-color-list li span#color_red::before {
+    background-color: #F00;
+}
+ul.car-color-list li span#color_orange::before {
+    background-color: #FFA500;
+}
+ul.car-color-list li span#color_green::before {
+    background-color: #2CB711;
+}
+ul.car-color-list li span#color_blue::before {
+    background-color: #0674E8;
+}
+ul.car-color-list li span#color_brown::before {
+    background-color: #673407;
+}
+ul.car-color-list li span#color_yellow::before {
+    background-color: #fbc325;
+}
+ul.car-color-list li span#color_pink::before {
+    background-color: #FF85AB;
+}
+ul.car-color-list li span#color_pearl::before {
+    background: linear-gradient(135deg, #FDFDFD 0, #E5E2CD 100%);
+}
+ul.car-color-list li span#color_purple::before {
+    background-color: #9A1CD9;
+}
+ul.car-color-list li span#color_gold::before {
+    background: linear-gradient(135deg, #FFFFC1 0, #C9A849 100%);
+}
+ul.car-color-list li span#color_gray::before {
+    background-color: #bbb;
+}
+ul.car-color-list li span#color_unknown::before {
+    content: "?";
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+}
+ul.car-kilomet-item-list li {
+    text-align: left;
+    cursor: pointer;
+    margin: 5px 0;
+    width: 100%;
+    transition: 0.3s;
+}
+ul.car-kilomet-item-list {
+    display: grid;
+    grid-gap: 12px;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    padding-block: 24px;
+    width: 100%;
+    padding: 40px 30px;
+}
+span#numberkl-item {
+    /*background-color: #e1e1e1;*/
+    /*padding: 5px 0px;*/
+    font-size: 14px;
+    /* border-radius: 18px; */
+    /*border: 1px solid #a9a9a9;*/
+    width: 100px;
+    display: block;
+    display: block;
+    border-left: 2px solid #919191;
+    padding-left: 7px;
+    font-weight: 500;
+    color: #555555;
+}
+
+/* Ẩn mặc định checkbox */
+.custom-checkbox input {
+  display: none;
+}
+
+/* Tạo một hình tròn cho checkbox tùy chỉnh */
+.custom-checkbox .checkmark {
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 24px 0px;
+    transition: 0.3s;
+    background-color: #c6c5c5;
+    width: 220px;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+.custom-checkbox .checkmark.long{
+    width: 348px;
+}
+
+/* Khi checkbox được kiểm tra, thay đổi màu của hình tròn */
+.custom-checkbox input:checked + .checkmark {
+    background-color: #fa6b19;
+    color: #fff;
+    border: 1px solid #fa6b19;
+}
+
+/* Tạo một phong cách cho văn bản bên cạnh checkbox */
+.custom-checkbox {
+  position: relative;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* Khi bạn di chuột qua checkbox, thay đổi màu nền */
+.custom-checkbox .checkmark:hover {
+    background-color: #ff9e67;
+    color: #fff;
+}
+
+p#message-one {
+    color: red;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.mes-validate p {
+    color: red;
+    font-size: 14px;
+    padding-top: 5px;
+}
+ul.car-kilomet-item-list li:hover {
+    background-color: #ff9e67;
+}
+ul.car-kilomet-item-list li:hover span#numberkl-item{
+    color: #fff;
+    border-left: 2px solid #fff;
+}
+.title-check span {
+    font-weight: 500;
+}
+
+@media(max-width: 992px){
+    .maker-modal-content ul.modal-block-list li{
+        flex: 0;
+      }
+
+}
+li.hide-line-status {
+    display: none;
+}
